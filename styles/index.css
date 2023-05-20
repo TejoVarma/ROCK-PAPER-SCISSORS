@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(38, 36, 45);
+}
+
+header {
+    background-color: white;
+    padding: 30px;
+}
+
+header>h1 {
+    color: black;
+    text-align: center;
+}
+
+.input {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+#game-buttons {
+    display: inline-block;
+    vertical-align: center;
+}
+
+#play,
+#reset {
+    padding: 5px 10px;
+    border: 2px solid white;
+    background-color: rgb(38, 36, 45);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+#play:hover,
+#reset:hover {
+    cursor: pointer;
+    padding: 5px 15px;
+}
+
+#rounds-left {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#entry,
+#rounds {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.score-board {
+    border: 3px solid white;
+    border-radius: 4px;
+    width: 200px;
+    margin: 20px auto;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.badge {
+    background-color: rgb(233, 71, 71);
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+}
+
+.result>p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.choices {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.choice {
+    display: inline-block;
+}
+
+.choice>button {
+    margin: 0 20px;
+    padding: 20px 30px;
+    border: 4px solid white;
+    background-color: rgb(38, 36, 45);
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.choice>button:hover {
+    cursor: pointer;
+    padding: 20px 35px;
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.green-glow {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.grey-glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
